@@ -67,7 +67,7 @@ export default function ContactSection() {
             className="bg-white/10 border-white/20 text-white hover:bg-white/20 transition-colors"
           >
             <a
-              href="https://www.linkedin.com/in/andy-delgado"
+              href="https://www.linkedin.com/in/adelgado0723"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center"
