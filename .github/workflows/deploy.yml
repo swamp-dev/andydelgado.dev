@@ -26,5 +26,6 @@ jobs:
         run: |
           rm -rf /home/ubuntu/serverSetup/andydelgado.dev/*
           cp -r dist/* /home/ubuntu/serverSetup/andydelgado.dev/
+          cp -r node_modules /home/ubuntu/serverSetup/andydelgado.dev/node_modules/
           cd /home/ubuntu/serverSetup/andydelgado.dev
           pm2 restart all --update-env
