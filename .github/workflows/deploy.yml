@@ -32,6 +32,11 @@ jobs:
           source: "dist/*"
           target: "/home/ubuntu/serverSetup/andydelgado.dev"
           strip_components: 1
+          debug: true
+          timeout: 60s
+          command_timeout: 20m
+          rm: true
+          overwrite: true
           
       - name: Restart PM2
         uses: appleboy/ssh-action@v1.0.3
