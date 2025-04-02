@@ -40,4 +40,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/ubuntu/serverSetup/andydelgado.dev
-            pm2 restart all 
+            pm2 restart all --update-env
