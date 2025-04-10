@@ -16,32 +16,8 @@ function Router() {
 }
 
 function App() {
-  const handleSkipLink = () => {
-    // Find the main content and focus it
-    const mainContent = document.getElementById('about');
-    if (mainContent) {
-      mainContent.focus();
-      mainContent.scrollIntoView();
-    }
-  };
-
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Skip to main content link for accessibility */}
-      <a 
-        href="#about" 
-        className="skip-link" 
-        onClick={handleSkipLink}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            handleSkipLink();
-          }
-        }}
-      >
-        Skip to main content
-      </a>
-      
       <Router />
       <BackToTop />
       <Toaster />
