@@ -76,7 +76,7 @@ export default function HeroSection() {
                   className="bg-transparent border-2 border-white text-white font-medium py-2 px-6 rounded-lg hover:bg-white/10 transition-colors focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
                 >
                   <a
-                    href="https://github.com/adelgado0723"
+                    href="https://github.com/swamp-dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"
@@ -92,7 +92,7 @@ export default function HeroSection() {
                   className="bg-transparent border-2 border-white text-white font-medium py-2 px-6 rounded-lg hover:bg-white/10 transition-colors focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
                 >
                   <a
-                    href="https://www.linkedin.com/in/adelgado0723"
+                    href="https://www.linkedin.com/in/floridaDev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"
