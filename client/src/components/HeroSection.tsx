@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import headshot from "@assets/Headshot.png";
+import headshot from "@assets/Headshot.jpg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function HeroSection() {
@@ -92,7 +92,7 @@ export default function HeroSection() {
                   className="bg-transparent border-2 border-white text-white font-medium py-2 px-6 rounded-lg hover:bg-white/10 transition-colors focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary"
                 >
                   <a
-                    href="https://www.linkedin.com/in/floridaDev"
+                    href="https://www.linkedin.com/in/andydelgado1/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center"

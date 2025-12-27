@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { FaExternalLinkAlt, FaCreditCard, FaDatabase, FaPlane } from "react-icons/fa";
+import { FaExternalLinkAlt, FaCreditCard, FaDatabase, FaPlane, FaUniversity } from "react-icons/fa";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 type ExperienceItem = {
@@ -16,6 +16,39 @@ type ExperienceItem = {
 const EXPERIENCES: ExperienceItem[] = [
   {
     title: "Senior Software Engineer",
+    company: "Payroll Integrations",
+    companyUrl: "https://www.payrollintegrations.com",
+    logo: (
+      <div className="flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary">
+        <FaDatabase size={28} />
+      </div>
+    ),
+    period: "December 2025 - Current",
+    location: "Remote - Belleview, FL",
+    responsibilities: [
+      "Building Node.js services and integrating with third-party payroll and benefits APIs",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Jenius Bank",
+    companyUrl: "https://www.jeniusbank.com",
+    logo: (
+      <div className="flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary">
+        <FaUniversity size={28} />
+      </div>
+    ),
+    period: "May 2025 - December 2025",
+    location: "Remote - Belleview, FL",
+    responsibilities: [
+      "Designed and implemented internal experimentation system with normalized SQL schema, enabling controlled rollout of credit and fraud strategies",
+      "Led development of loan top-up service, coordinating with product teams to define requirements and integrate with internal customer data systems",
+      "Drove adoption of linting standards and commit hooks across the team, reducing code review friction and improving codebase consistency",
+      "Contributed to credit strategy rollouts including decisioning engine updates, microservice changes, and expanded test coverage",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
     company: "Karma Wallet",
     companyUrl: "https://karmawallet.io",
     logo: (
@@ -23,7 +56,7 @@ const EXPERIENCES: ExperienceItem[] = [
         <FaCreditCard size={28} />
       </div>
     ),
-    period: "November 2022 - Current",
+    period: "November 2022 - March 2025",
     location: "Remote - Belleview, FL",
     responsibilities: [
       "Led key initiatives in creating the Karma Wallet debit card, including integrating with a third-party card provider's API to enable users to earn rewards for shopping with sustainable merchants",
